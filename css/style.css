@@ -921,3 +921,32 @@ blockquote {
 	z-index: 9999;
 	background: url(https://smallenvelop.com/wp-content/uploads/2014/08/Preloader_11.gif) center no-repeat rgb(255, 255, 255);
 }
+.env {
+  display: table;
+  padding: 10px 0 10px 0;
+  list-style: none;
+  width: 1000px;
+  margin: 0 auto;
+}
+.env:hover li {
+  opacity: 0.8;
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+}
+.env li {
+  cursor: pointer;
+  box-shadow: 0 2px 5px #fff;
+  float: left;
+  margin: 1.5px;
+  width: 90px;
+  height: 90px;
+  opacity: 0.9;
+  transition: all 0.3s linear;
+}
+.env li:hover {
+  box-shadow: 0 5px 15px gba(0, 0, 0, 0.4);
+  opacity: 1;
+  transform: scale(1.08);
+  -webkit-filter: blur(0);
+  filter: blur(0);
+}
