@@ -921,6 +921,8 @@ blockquote {
 	z-index: 9999;
 	background: url(https://smallenvelop.com/wp-content/uploads/2014/08/Preloader_11.gif) center no-repeat rgb(255, 255, 255);
 }
+
+/*environments gallery*/
 .env {
   display: table;
   padding: 10px 0 10px 0;
@@ -937,16 +939,23 @@ blockquote {
   cursor: pointer;
   box-shadow: 0 2px 5px #fff;
   float: left;
-  margin: 1.5px;
-  width: 90px;
-  height: 90px;
+  margin: 45px;
+  width: 105px;
+  height: 105px;
   opacity: 0.9;
   transition: all 0.3s linear;
+}
+.env-icon {
+  /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+  filter: gray; /* IE5+ */
+    -webkit-filter: grayscale(0); /* Webkit Nightlies & Chrome Canary */
 }
 .env li:hover {
   box-shadow: 0 5px 15px gba(0, 0, 0, 0.4);
   opacity: 1;
   transform: scale(1.08);
-  -webkit-filter: blur(0);
-  filter: blur(0);
+  filter: none;
+    -webkit-filter: grayscale(0);
+  
 }
+
