@@ -772,7 +772,7 @@ blockquote {
 }
 
 .content * {
-  margin-bottom: 3px;
+  margin-bottom: 1px;
 }
 
 .content strong {
@@ -958,4 +958,6 @@ blockquote {
     -webkit-filter: grayscale(0);
   
 }
+
+
 
